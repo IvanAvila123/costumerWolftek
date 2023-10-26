@@ -102,7 +102,7 @@ $user = mysqli_fetch_assoc($query);
                                         <a href="ventasuser.php">Ventas/Oportuniddes</a>
                                     </li>
                                     <li>
-                                        <a href="dashboard-projects.html">Informes</a>
+                                        <a href="informesUser.php">Informes</a>
                                     </li>
                                 </ul>
                             </div>
