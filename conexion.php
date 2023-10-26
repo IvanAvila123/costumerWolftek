@@ -1,18 +1,22 @@
 <?php
+
 function conectar(){
-    $servername = "localhost";
-    $user = "root";
-    $password = "";
-    $dbname = "costumerwolftek";
+$servername = "localhost";
+$user = "root";
+$password = "";
+$dbname = "costumerwolftek";
 
-    // Crea conexión a la base de datos
-    $con = new mysqli($servername, $user, $password, $dbname);
+//crea conexion a la base de datos
 
-    // Verifica la conexión
-    if ($con->connect_error) {
-        die("Conexión Fallida: " . $con->connect_error);
-    }
+$con = new mysqli($servername, $user, $password, $dbname);
 
-    return $con;
+return $con;
+
+//verifica la conexion
+
+if ($con->connect_error) {
+    die("Conexion Fallida" . $con->connect_error);
+}
+echo "Conexion Exitosamente";
 }
 ?>
