@@ -7,7 +7,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Buscar al usuario en la base de datos usando una sentencia preparada
-$sql = "SELECT * FROM Users WHERE username = ?";
+$sql = "SELECT * FROM users WHERE username = ?";
 $stmt = $con->prepare($sql);
 $stmt->bind_param("s", $username);
 $stmt->execute();
