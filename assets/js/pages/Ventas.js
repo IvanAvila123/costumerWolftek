@@ -21,7 +21,7 @@ $(document).ready(function () {
                 data: null,
                 render: function (data, type, row) {
                     // Botón para editar
-                    var editarButton = '<button class="btn btn-primary" onclick="editar(' + data.id + ')">Editar</button>';
+                    var editarButton = '<button class="btn btn-primary" onclick="editarVenta(' + data.id + ')">Editar</button>';
 
                     // Botón para eliminar
                     var eliminarButton = '<button class="btn btn-danger" onclick="eliminarVenta(' + data.id + ')">Eliminar</button>';
@@ -57,7 +57,7 @@ document.getElementById('venta-form').addEventListener('submit', function (e) {
 });
 
 
-function editar(id) {
+function editarVenta(id) {
     var data = tblVentas.rows().data().toArray().find(row => row.id == id);
 
     if (data) {
