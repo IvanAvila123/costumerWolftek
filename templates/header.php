@@ -107,6 +107,9 @@ $user = mysqli_fetch_assoc($query);
                                     <li>
                                         <a href="informes.php">Informes</a>
                                     </li>
+                                    <li>
+                                        <a href="renovaciones.php">Renovaciones/Renovaciones Anticipadas</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>

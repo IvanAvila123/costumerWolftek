@@ -129,6 +129,7 @@
         <script src="assets/js/pages/informacionUser.js"></script>
         <script src="assets/js/pages/lineasUser.js"></script>
         <script src="assets/js/pages/ventasUser.js"></script>
+        <script src="assets/js/pages/RenovacionesUser.js"></script>
         <!-- end demo js-->
     </body>
 </html>

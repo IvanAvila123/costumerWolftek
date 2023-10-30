@@ -90,7 +90,7 @@ $user = mysqli_fetch_assoc($query);
                         <li class="side-nav-item">
                             <a data-bs-toggle="collapse" href="#sidebarDashboards" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
                                 <i class="uil-home-alt"></i>
-                                <span class="badge bg-success float-end">3</span>
+                                <span class="badge bg-success float-end">4</span>
                                 <span> Dashboards </span>
                             </a>
                             <div class="collapse" id="sidebarDashboards">
@@ -103,6 +103,10 @@ $user = mysqli_fetch_assoc($query);
                                     </li>
                                     <li>
                                         <a href="informesUser.php">Informes</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="renovacionesUser.php">Renovaciones/Renovaciones Anticipadas</a>
                                     </li>
                                 </ul>
                             </div>

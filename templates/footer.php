@@ -132,6 +132,7 @@
 <script src="assets/js/pages/Informacion.js"></script>
 <script src="assets/js/pages/Lineas.js"></script>
 <script src="assets/js/pages/Ventas.js"></script>
+<script src="assets/js/pages/Renovaciones.js"></script>
 <script src="assets/js/pages/editarExcel.js"></script>
 <!-- end demo js-->
 </body>
