@@ -17,6 +17,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 { data: 'fecha' },
             ],
 
+            dom: 'Bfrtip',
+
+            buttons:[
+                {
+                    extend: 'excelHtml5',
+                    text:   '<i class="fa-regular fa-file-excel"></i>',
+                    titleAttr: 'Exportar a Excel',
+                    className: 'btn btn-success'
+                }
+            ],
+
             language: {
                 url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-MX.json',
             },

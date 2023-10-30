@@ -120,7 +120,7 @@
         <script src="assets/js/vendor/apexcharts.min.js"></script>
         <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
         <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-        <script src="assets/js/DataTables-1.13.6/datatables.min.js"></script>
+        <script src="assets/DataTable/datatables.min.js"></script>
         <!-- third party js ends -->
 
         <!-- demo app -->

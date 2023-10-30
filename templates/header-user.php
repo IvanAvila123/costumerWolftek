@@ -44,7 +44,7 @@ $user = mysqli_fetch_assoc($query);
 
         <!-- third party css -->
         <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css">
-        <link href="assets/js/DataTables-1.13.6/datatables.min.css" rel="stylesheet">
+        <link href="assets/DataTable/datatables.min.css" rel="stylesheet">
         <!-- third party css end -->
 
         <!-- App css -->

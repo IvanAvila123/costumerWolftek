@@ -17,6 +17,30 @@ document.addEventListener('DOMContentLoaded', function () {
                 { data: 'fecha' },
             ],
 
+            dom: 'Bfrtip',
+            buttons:[
+                {
+                    extend: 'excelHtml5',
+                    text:   '<i class="fa-regular fa-file-excel"></i>',
+                    titleAttr: 'Exportar a Excel',
+                    className: 'btn btn-success'
+                },
+
+                {
+                    extend: 'pdfHtml5',
+                    text:   '<i class="fa-regular fa-file-pdf"></i>',
+                    titleAttr: 'Exportar a PDF',
+                    className: 'btn btn-danger'
+                },
+
+                {
+                    extend: 'print',
+                    text:   '<i class="fa-solid fa-print"></i>',
+                    titleAttr: 'Imprimir',
+                    className: 'btn btn-info'
+                }
+            ],
+
             language: {
                 url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-MX.json',
             },
@@ -40,6 +64,30 @@ document.addEventListener('DOMContentLoaded', function () {
                 { data: 'fecha' },
             ],
 
+            dom: 'Bfrtip',
+            buttons:[
+                {
+                    extend: 'excelHtml5',
+                    text:   '<i class="fa-regular fa-file-excel"></i>',
+                    titleAttr: 'Exportar a Excel',
+                    className: 'btn btn-success'
+                },
+
+                {
+                    extend: 'pdfHtml5',
+                    text:   '<i class="fa-regular fa-file-pdf"></i>',
+                    titleAttr: 'Exportar a PDF',
+                    className: 'btn btn-danger'
+                },
+
+                {
+                    extend: 'print',
+                    text:   '<i class="fa-solid fa-print"></i>',
+                    titleAttr: 'Imprimir',
+                    className: 'btn btn-info'
+                }
+            ],
+
             language: {
                 url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-MX.json',
             },
@@ -61,6 +109,30 @@ document.addEventListener('DOMContentLoaded', function () {
                 { data: 'id_cliente' },
                 { data: 'dn' },
                 { data: 'fecha' },
+            ],
+
+            dom: 'Bfrtip',
+            buttons:[
+                {
+                    extend: 'excelHtml5',
+                    text:   '<i class="fa-regular fa-file-excel"></i>',
+                    titleAttr: 'Exportar a Excel',
+                    className: 'btn btn-success'
+                },
+
+                {
+                    extend: 'pdfHtml5',
+                    text:   '<i class="fa-regular fa-file-pdf"></i>',
+                    titleAttr: 'Exportar a PDF',
+                    className: 'btn btn-danger'
+                },
+
+                {
+                    extend: 'print',
+                    text:   '<i class="fa-solid fa-print"></i>',
+                    titleAttr: 'Imprimir',
+                    className: 'btn btn-info'
+                }
             ],
 
             language: {

@@ -121,13 +121,18 @@
 <!-- third party js -->
 <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
 <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-<script src="assets/js/DataTables-1.13.6/datatables.min.js"></script>
-<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+<script src="assets/DataTable/datatables.min.js"></script>
+<script src="assets/DataTable/Buttons-2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="assets/DataTable/JSZip-3.10.1/jszip.min.js"></script>
+<script src="assets/DataTable/pdfmake-0.2.7/pdfmake.min.js"></script>
+<script src="assets/DataTable/pdfmake-0.2.7/vfs_fonts.js"></script>
+<script src="assets/DataTable/Buttons-2.4.2/js/buttons.html5.min.js"></script>
 <!-- third party js ends -->
 
 <!-- demo app -->
 <script src="assets/js/pages/demo.dashboard.js"></script>
-<script src="assets/js/pages/clientes.js"></script>
+<script src="https://kit.fontawesome.com/71c950a9aa.js" crossorigin="anonymous"></script>
+<script src="assets/js/pages/Clientes.js"></script>
 <script src="assets/js/pages/Usuarios.js"></script>
 <script src="assets/js/pages/Informacion.js"></script>
 <script src="assets/js/pages/Lineas.js"></script>
